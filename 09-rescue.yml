@@ -10,9 +10,9 @@
         - name: Force a failure
           ansible.builtin.shell: /bin/false
 
-#        - name: Never print this
-#          ansible.builtin.debug:
-#            msg: 'I never execute, due to the above task failing, :-('
+        - name: Never print this
+          ansible.builtin.debug:
+            msg: 'I never execute, due to the above task failing, :-('
 #
 #      rescue:
 #        - name: Print when errors
